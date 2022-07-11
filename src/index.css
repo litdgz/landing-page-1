@@ -1,0 +1,157 @@
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    background-color: #F3EDE5;
+    margin: 0;
+    padding: 0;
+}
+.nav-container {
+    display: grid;
+    margin-top: 2rem;
+    width: 100vw;
+    height: auto;
+    align-items: center;
+    grid-template-columns: auto 0 0 auto;
+}
+.nav__logo-container {
+    margin-left: 2.1rem;
+}
+.nav__links {
+    visibility: hidden;  
+}
+.nav__sign-in {
+    visibility: hidden;
+}
+.nav__menu-container {
+    align-self: center;
+    position: relative;
+    margin-right: 2.3rem;
+    justify-self: flex-end;
+}
+.pop-up-menu-container2 {
+    visibility: hidden;
+    position: absolute;
+}
+.pop-up-menu-container {
+    width: 38.9rem;
+    height: 39.9rem;
+    background-color: #FFFFFF;
+    border-radius: 1.5rem;
+    position: absolute;
+    z-index: 1;
+    right: 0%;
+    top: -40%;
+    color: #95A3B3;
+    visibility: hidden;
+}
+.nav__menu-container .show {
+    visibility: visible;
+}
+.pop-up-menu__header {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    margin-top: 3.9rem;
+    margin-left: 3.4rem;
+    
+}
+.pop-up-menu__header h2 {
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+.pop-up-menu__header img {
+    justify-self: end;
+    margin-right: 4.3rem;
+}
+.pop-up-menu__info__container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 3.4rem;
+    margin-right: 4.7rem;
+    row-gap: 2.4rem;
+    column-gap: 1.1rem;
+    font-size: 1.4rem;
+}
+.pop-up-menu__info__container h2 {
+    margin: 0.3rem 0 0;
+    font-size: 1.4rem;
+    color: #0A263F;
+    font-weight: 500;
+}
+.pop-up-menu__info__container p {
+    margin: 0.4rem 0 0;
+    color: #6C7D8C;
+
+}
+
+.info-section {
+    margin-left: 2rem;
+    max-width: 38rem;
+}
+.hero-img {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+.text-pitch{
+    font-weight: 700;
+    font-size: 3.6rem;
+    margin: 0;
+}
+.text-pitch span {
+    color: #F7B300;
+}
+.text-explination, .text-rating, .text-trusted {
+    font-size: 1.6rem;
+    color: #757575;
+}
+button {
+    width: 15.2rem;
+    height: 5.6rem;
+    background-color: #133416;
+    border-radius: 4px;
+    color: #FFFFFF;
+    border-style: none;
+}
+.rating-container {
+    display: flex;
+    align-items: center;
+}
+.rating-container img:first-of-type {
+    margin-left: 2.3rem;
+}
+
+.rating-container img:nth-of-type(1n+2) {
+    margin-left: 1.4rem;
+}
+main section:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+}
+.text-trusted {
+    margin: 8.5rem auto 0;
+    text-align: center;
+}
+.logos-container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    row-gap: 1.9rem;
+    margin-top: 2.6rem;
+}
+.netflix-logo {
+    width: 17.8rem;
+}
+.shopify-logo {
+    width: 16.9rem;
+}
+.spotify-logo {
+    width: 16rem;
+}
+.walmart-logo {
+    width: 20rem;
+}
