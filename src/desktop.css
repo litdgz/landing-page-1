@@ -1,0 +1,115 @@
+a {
+    text-decoration: none;
+    color: #6C7D8C;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+main {
+    max-width: 114.6rem;
+    margin: 16.6rem auto 0;
+}
+.nav-container {
+    grid-template-columns: 0.5fr 1.5fr 1fr 0;
+    justify-items: center;
+    max-width: 114.6rem;
+    margin: 5.3rem auto 0;
+}
+@media screen and ( max-width: 1114px) {
+    main {
+        max-width: 100rem;
+    }
+    .nav-container {
+        max-width: 100rem;
+    }
+    .info-section__grid {
+        gap: 1rem;
+    }
+}
+.nav__logo-container {
+    margin-left: 0;
+    justify-self: flex-start;
+}
+.nav__links {
+    display: flex;
+    visibility: visible;
+    gap: 4rem;
+    color: #6C7D8C;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.products{
+    position: relative;
+}
+.pop-up-menu-container2 {
+    width: 42.3rem;
+    height: 30.9rem;
+    background-color: #FFFFFF;
+    border-radius: 1.5rem;
+    position: absolute;
+    z-index: 1;
+    top: 120%;
+    left: -60%;
+    color: #95A3B3;
+}
+.pop-up-menu-container2::before {
+    content: "";
+    position: absolute;
+    top: -5%;
+    left: 15%;
+    margin-left: -5px;
+    border-width: 10px;
+    border-style: solid;
+    border-color:  transparent  transparent #FFFFFF transparent;
+}
+.show2 {
+    visibility: visible;
+}
+.pop-up-menu__info__container2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 3.6rem;
+    margin-left: 3.4rem;
+    row-gap: 2.7rem;
+    column-gap: 1.1rem;
+    font-size: 1.4rem;
+}
+.pop-up-menu__info__container2 h2 {
+    margin: 0.3rem 0 0;
+    font-size: 1.4rem;
+    color: #0A263F;
+    font-weight: 500;
+}
+.pop-up-menu__info__container2 p {
+    margin: 0.4rem 0 0;
+    color: #6C7D8C;
+
+}
+.nav__sign-in {
+    visibility: visible;
+    display: flex;
+    gap: 2.3rem;
+    align-items: center;
+    justify-self: flex-end;
+}
+.nav__menu-container {
+    visibility: hidden;
+}
+.info-section {
+    max-width: 114.6rem;
+}
+.info-section__grid {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+.text-pitch {
+    font-size: 6.4rem;
+}
+.hero-img {
+    visibility: visible;
+    width: 34.5rem;
+    height: 41.2rem;
+}
+.text-trusted {
+    margin-top: 11rem;
+}
